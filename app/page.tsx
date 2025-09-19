@@ -4,6 +4,13 @@ import Link from 'next/link';
 import { lusitana } from './ui/fonts';
 import Image from 'next/image';
 
+import { Suspense } from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
+
 
 export default function Page() {
   return (
